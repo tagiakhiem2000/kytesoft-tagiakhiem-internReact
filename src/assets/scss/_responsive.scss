@@ -1,0 +1,40 @@
+@media only screen and (max-width:415px) {
+    .row{
+        display: flex;
+        flex-direction: column;
+        width: 95%;
+        margin-left: 10px;
+        button{
+            width: 108% !important;
+        }
+    }
+    .video-background {
+        width: 100%;
+        .searchForm{
+            height: 200px !important;
+            margin-left: -13px;
+        }
+    }
+    .navContent{
+        .navbar-nav{
+            padding-right: 20px;
+        }
+        .dropdown{
+            display: none;
+        }
+    }
+    #footer{
+        .footerRow{
+            display: flex;
+            flex-direction: row;
+            margin-left: -10px;
+        }
+        #footerMenuCol{
+            position: relative;
+            left: -90px;
+        }
+    }
+    #sideBar{
+        display: none;
+    }
+}

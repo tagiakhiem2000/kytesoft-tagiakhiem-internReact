@@ -1,0 +1,24 @@
+.title{
+    text-align: center;
+    margin: 80px;
+    .mainTitle{
+        font-weight: 700;
+    }
+    .subTitle{
+        font-weight: 500;
+        opacity: .8;
+    }
+}
+@media only screen and (max-width:376px) {
+    .title{
+        text-align: center;
+        margin: 15px;
+        .mainTitle{
+            font-weight: 700;
+        }
+        .subTitle{
+            font-weight: 500;
+            opacity: .8;
+        }
+    }
+}

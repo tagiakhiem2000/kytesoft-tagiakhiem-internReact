@@ -1,0 +1,22 @@
+.firstContent {
+    min-height: 300px;
+    border-radius: 5px;
+    margin-bottom: 25px;
+    box-sizing: border-box;
+    background-size: cover;
+    background-position: center center;
+    position: relative;
+    .overlay{
+        position: absolute;
+        width: 100%;
+        background-color: rgba(0,0,0,0.15);
+        height: 100%;
+    }
+    h4 {
+        position: absolute;
+        color: white;
+        bottom: 10px;
+        left: 10px;
+        font-weight: 700;
+    }
+}

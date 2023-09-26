@@ -1,0 +1,10 @@
+.content:hover {
+    transition-duration: 0.2s;
+    box-shadow: 0 22px 40px rgba(0, 0, 0, .15);
+    transform: translateY(-4px);
+    cursor: pointer;
+    .tourPrice {
+        left: 5px;
+        transform: scale(1.2);
+    }
+}

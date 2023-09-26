@@ -1,0 +1,181 @@
+.video-background {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+
+    .navContent {
+        position: absolute;
+        width: 100%;
+        top: 0%;
+        z-index: 5;
+        color: white;
+        text-align: center;
+
+        .navbar {
+            background: transparent;
+            padding-top: 20px;
+            padding-bottom: 20px;
+
+            #logoAlign {
+                scale: 0.5;
+            }
+
+            .menuNav>a {
+                color: white !important;
+            }
+
+            .menuNav {
+                .cart_count {
+                    position: absolute;
+                    top: 0px;
+                    right: -10px;
+                    font-size: 10px;
+                    border-radius: 50px;
+                    background: #f03333;
+                    color: #fff;
+                    z-index: 2;
+                    width: 16px;
+                    height: 16px;
+                    line-height: 18px;
+                    font-weight: 600;
+                    text-align: center;
+                }
+
+                button {
+                    background: none;
+                    color: black;
+                    border-color: white;
+                }
+            }
+
+            svg {
+                fill: white;
+                margin-left: 10px;
+                cursor: pointer;
+            }
+        }
+    }
+
+    .video-background video {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+
+    .overlay {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(0, 0, 0, .3);
+    }
+
+    .innerContent {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        top: 0;
+        flex-direction: column;
+        justify-content: center;
+        display: flex;
+        z-index: 1;
+        color: white;
+        text-align: center;
+
+        #tour_advance_search_toggle{
+            text-decoration: none;
+            padding-left: 6px;
+        }
+        .row {
+            height: 60px;
+        }
+
+        .col {
+            position: relative;
+            margin: 10px;
+
+            button {
+                width: 100%;
+            }
+
+            .cellSearch {
+                position: absolute;
+                width: 100%;
+            }
+
+            svg {
+                position: absolute;
+                right: 0px;
+                color: #0000004f;
+                top: 10px;
+            }
+        }
+        #iconArrowUp{
+            display: none;
+        }
+        #extraSearchForm{
+            display: none;
+        }
+        .showExtraSearchForm{
+            #iconArrowUp{
+                display: inherit !important;    
+            }
+            #iconArrowDown{
+                display: none !important;
+            }
+            #extraSearchForm{
+                display: flex !important;
+            }
+        }
+        .defaultSearchForm {
+            select {
+                background-image: none;
+            }
+        }
+    }
+}
+.a{
+    background-color: #f03333;
+}
+// @media only screen and (max-width:376px) {
+//     .row{
+//         display: flex;
+//         flex-direction: column;
+//         width: 95%;
+//         margin-left: 10px;
+//         button{
+//             width: 108% !important;
+//         }
+//     }
+//     .video-background {
+//         width: 100%;
+//         .searchForm{
+//             height: 200px !important;
+//             margin-left: -13px;
+//         }
+//     }
+//     .navContent{
+//         .navbar-nav{
+//             padding-right: 20px;
+//         }
+//         .dropdown{
+//             display: none;
+//         }
+//     }
+//     #footer{
+//         .footerRow{
+//             display: flex;
+//             flex-direction: row;
+//             margin-left: -10px;
+//         }
+//         #footerMenuCol{
+//             position: relative;
+//             left: -90px;
+//         }
+//     }
+// }

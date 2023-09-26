@@ -1,0 +1,30 @@
+.thirdContent {
+    margin-bottom: 100px;
+    .tourGalary {
+        position: relative;
+
+        .tourImage {
+            width: 100%;
+            border-top-left-radius: 5px;
+            border-top-right-radius: 5px;
+            scale: 0.8;
+        }
+    }
+
+    .tourInfo {
+        .title {
+            margin: 10px;
+            // text-align: start !important;
+
+            .mainTitle {
+                font-size: 20px;
+                color: black;
+            }
+
+            .subTitle {
+                text-align: justify;
+                font-size: 15px;
+            }
+        }
+    }
+}
